@@ -54,6 +54,10 @@ This project uses the following third-party assets located in the `Assets/ThirdP
 ## Texture and Images
 - <a href="https://www.flaticon.com/free-icons/exclamation-mark" title="exclamation mark icons">Exclamation mark icons created by Creatype - Flaticon</a>
 
+## Speech Recognition
+- **Whisper Tiny (Unity Sentis Integration)**
+  - Model from Unity: https://huggingface.co/unity/inference-engine-whisper-tiny
+
 ## Usage
 Please refer to the original asset pages for license terms and usage restrictions. Cite and credit as required by each asset provider.
 

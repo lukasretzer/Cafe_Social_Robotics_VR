@@ -11,6 +11,7 @@ This repository contains a Unity project for simulating a social robot in a virt
 - A civilian female model was added, with Mixamo animations used for background cafe customers.
 
 ## Features
+
 - Realistic VR cafe environment with physics-based kitchen & bakery items
 - Agibot G1 social robot simulation with autonomous navigation and dual-arm manipulation
 - Centralized **Master Experiment Control Hub** (`ExperimentSessionManager`) for 1-click trial setup
@@ -19,6 +20,7 @@ This repository contains a Unity project for simulating a social robot in a virt
 - Distraction event triggers (broken bottle crashes, customer coffee spills) with robot interrupt & cleanup sequences
 - Comprehensive experimenter host controls & automated CSV / JSON trial data logging
 - Smooth low-light VR rest breaks and clean inter-set scene transitions
+
 
 ## Asset Credits
 See [credits.md](./credits.md) for a full list of third-party assets used in this project.

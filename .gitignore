@@ -99,5 +99,9 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
+
 # Trial Logs
 /[Tt]rialLogs
+
+# Auto-generated files by inference engine whisper tiny
+Assets/ThirdPartyAssets/inference-engine-whisper-tiny/**/*.meta
