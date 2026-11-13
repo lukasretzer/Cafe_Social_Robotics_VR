@@ -3296,6 +3296,7 @@ GameObject:
   - component: {fileID: 158517481}
   - component: {fileID: 158517483}
   - component: {fileID: 158517482}
+  - component: {fileID: 158517484}
   m_Layer: 0
   m_Name: ButtonCappucino
   m_TagString: Untagged
@@ -3425,6 +3426,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 3.8473136, y: 1, z: 1}
   m_Center: {x: -0.03510082, y: -1.4165176e-11, z: 0}
+--- !u!114 &158517484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 158517480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 158517482}
+  m_PokeCollider: {fileID: 158517483}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 4
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!1001 &164048903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8417,6 +8440,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1883230248363655243, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_EnableFarCasting
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1883230248363655243, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_InteractionLayers.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8434,6 +8461,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5967689310316253315, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
+      propertyPath: m_EnableFarCasting
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8877177980677234388, guid: f6336ac4ac8b4d34bc5072418cdc62a0, type: 3}
@@ -10415,6 +10446,7 @@ GameObject:
   - component: {fileID: 569699246}
   - component: {fileID: 569699248}
   - component: {fileID: 569699247}
+  - component: {fileID: 569699249}
   m_Layer: 0
   m_Name: ButtonLatte
   m_TagString: Untagged
@@ -10544,6 +10576,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 2.1976676, y: 1, z: 1}
   m_Center: {x: 0.03267369, y: 1.9971504e-11, z: 0}
+--- !u!114 &569699249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 569699245}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 569699247}
+  m_PokeCollider: {fileID: 569699248}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 4
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!4 &570723571 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3219309109404693103, guid: 38dbe96ccc8fb7742ac7fcf9002a4c9f, type: 3}
@@ -15173,9 +15227,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6261115959540724595, guid: c2d05fabd7261404a9e69c01922015b5, type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7217741343540364597, guid: c2d05fabd7261404a9e69c01922015b5, type: 3}
       propertyPath: m_Name
       value: FFK_Display_Repacked (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7341447410330491415, guid: c2d05fabd7261404a9e69c01922015b5, type: 3}
+      propertyPath: m_ThrowOnDetach
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15675,6 +15737,7 @@ GameObject:
   - component: {fileID: 849554475}
   - component: {fileID: 849554477}
   - component: {fileID: 849554476}
+  - component: {fileID: 849554478}
   m_Layer: 0
   m_Name: ButtonTee
   m_TagString: Untagged
@@ -15804,6 +15867,28 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.4972732, y: 1, z: 1}
   m_Center: {x: 0.24863672, y: -5.713896e-11, z: 0}
+--- !u!114 &849554478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849554474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 115f1a2a50d85cd4b9d6dad4c95622be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.XR.Interaction.Toolkit::UnityEngine.XR.Interaction.Toolkit.Filtering.XRPokeFilter
+  m_Interactable: {fileID: 849554476}
+  m_PokeCollider: {fileID: 849554477}
+  m_PokeConfiguration:
+    m_UseConstant: 1
+    m_ConstantValue:
+      m_PokeDirection: 4
+      m_InteractionDepthOffset: 0
+      m_EnablePokeAngleThreshold: 1
+      m_PokeAngleThreshold: 45
+    m_Variable: {fileID: 0}
 --- !u!1001 &851893900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25742,8 +25827,8 @@ MonoBehaviour:
   saveToPlayerPrefs: 0
   workloadCondition: 0
   orderSpawnInterval: 5
-  randomizeSetOrder: 0
-  randomizeOrdersWithinSets: 0
+  randomizeSetOrder: 1
+  randomizeOrdersWithinSets: 1
   randomizeTableAssignments: 1
   availableTableIndices: 000000000200000003000000040000000500000006000000
   randomSeed: 0
